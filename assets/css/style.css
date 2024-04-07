@@ -23,7 +23,7 @@ a {
   color: white;
 }
 
-.imagen {
+#imagen {
   width: 50%;
   border: 2px solid red;
 }

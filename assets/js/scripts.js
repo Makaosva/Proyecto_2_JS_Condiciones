@@ -36,7 +36,7 @@ function verificarPassword() {
   const mensaje = document.getElementById("mensaje3");
   console.log(Total);
   if (Total === "911") {
-    mensaje.innerHTML = "<strong>Password 1 Correcto</strong>";
+    mensaje.innerHTML = "<strong>Password 1 es Correcto</strong>";
   } else if (Total === "714") {
     mensaje.innerHTML = "<strong>Password 2 es Correcto</strong>";
   } else {
