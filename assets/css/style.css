@@ -1,24 +1,45 @@
 body {
-    background-color: black;
-    color: aqua;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  table,
-  th,
-  td {
-    border: 1px solid;
-    text-align: center;
-  }
-  
-  table {
-    width: 100%;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-  }
+  background-color: black;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.imagen {
+  width: 50%;
+  border: 2px solid red;
+}
+
+td img {
+  width: 200px;
+}
+
+select {
+  font-size: 20px;
+  width: 50px;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.botonPassword {
+  margin: 20px;
+}
