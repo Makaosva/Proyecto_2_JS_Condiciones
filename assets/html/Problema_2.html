@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Problema 2</title>
     <link rel="stylesheet" href="../css/style2.css" />
-</head>
-<body>
+  </head>
+  <body>
     <a href="/index.html">Volver a la Pagina principal</a>
+    <h1>Problema 2</h1>
+    <p>Puedes llevar hasta 10 sticker en total</p>
+    <table>
+      <tr>
+        <td>
+          <img
+            src="../img/sticker-vinilo-hello-kitty-colores.jpg"
+            alt="Hello Kitty"
+          />
+        </td>
+        <td><img src="../img/sticker-vinilo-leon.jpg" alt="Leon" /></td>
+        <td>
+          <img src="../img/sticker-vinilo-osito-colores.jpg" alt="Osito" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="number" id="inputNumber1" min="0"/>
+        </td>
+        <td>
+          <input type="number" id="inputNumber2" min="0"/>
+        </td>
+        <td>
+          <input type="number" id="inputNumber3" min="0"/>
+        </td>
+      </tr>
+    </table>
+    <p id="mensaje"></p>
+    <button onclick="verificarSrickers()">Verificar</button>
     <script src="../js/scripts2.js"></script>
-</body>
+  </body>
 </html>

@@ -1,13 +1,24 @@
 body {
-    background-color: black;
-    color: aqua;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  background-color: black;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+table,
+  th,
+  td {
+    border: 1px solid;
+    text-align: center;
   }
-  
-  a{
-    text-decoration: none;
-    color: white;
-  }
+
+img {
+  width: 200px;
+}
